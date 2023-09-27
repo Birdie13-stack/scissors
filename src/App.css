@@ -5,3 +5,60 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+
+:root {
+  --color-1: #005AE2;
+  --color-2: #1E3448;
+  --white: white;
+  --black: black;
+
+  --h1: clamp(28px, 4vw, 48px);
+  --h2: clamp(20px, 4vw, 40px);
+  --h3: clamp(18px, 4vw, 32px);
+  --h4: clamp(16px, 4vw, 24px);
+  --h5: clamp(14px, 4vw, 20px);
+  --h6: clamp(12px, 4vw, 18px);
+  --p: clamp(10px, 4vw, 16px);
+
+}
+
+h1 {
+  font-size: var(--h1);
+  font-weight: 900;
+}
+
+h2 {
+  font-size: var(--h2);
+  font-weight: 900;
+}
+
+h3 {
+  font-size: var(--h3);
+  font-weight: 900;
+}
+
+h4 {
+  font-size: var(--h4);
+}
+
+h5 {
+  font-size: var(--h5);
+}
+
+h6 {
+  font-size: var(--h6);
+}
+
+p {
+  font-size: var(--p);
+}
+
+
+.color1 {
+  color: var(--color-1);
+}
+
+.color2{
+  color: var(--color-2);
+}
