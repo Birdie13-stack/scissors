@@ -62,3 +62,8 @@ p {
 .color2{
   color: var(--color-2);
 }
+
+.container {
+  width: min(1400px, 85%);
+  margin-inline: auto;
+}
